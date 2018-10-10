@@ -4,8 +4,9 @@ Vista la poca documentazione circa l'invio delle fatture elettroniche verso il s
 Prima di utilizzare lo script per l'invio della fattura devi creare la cartella `certs` e inserirci i seguenti certificati:
 - CA_Agenzia_delle_Entrate_all.pem
 - private-client.key
-- SDI-03445160546-client.pem
-Per sapere come crearli ti rimando a questo [post](https://www.lorenzomillucci.it/2018/10/09/sdi-fattura-elettronica-php/) 
+- SDI-03445160546-client.pem  
+
+Per sapere come creare questi certificati a partire dal `KitDiTest` ti rimando a questo [post](https://www.lorenzomillucci.it/2018/10/09/sdi-fattura-elettronica-php/) 
 
 Per eseguire l'invio della fattura verso il SdI ti basta eseguire lo script con il comando:
 `php TestInvioFatture.php`
