@@ -16,12 +16,12 @@ class DebugSoapClient extends \SoapClient
         $soap_request = $request;
 
         $certspath = __dir__ .  "/certs/";
-        //CA file
+        // CA file
         $cafile = "CA_Agenzia_delle_Entrate_all.pem";
-        //PRIVATE KEY file
+        // PRIVATE KEY file
         $keyFile = "private-client.key";
-        //Client CERT file
-        $clientCertFile = "SDI-03445160546-client.pem";
+        // Client CERT file
+        $clientCertFile = "SDI-123456789-client.pem";
 
         $header = [
             'Content-type: text/xml;charset="utf-8"',

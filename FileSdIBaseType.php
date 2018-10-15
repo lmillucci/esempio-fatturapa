@@ -9,28 +9,9 @@ class FileSdIBaseType
     private $NomeFile;
 
     /**
-     * @var string -- base64 (?)
-     */
-    private $File;
-
-    /**
      * @var string
      */
-    public $IdentificativoSdI;
-
-    /**
-     * @var \DateTime
-     */
-    public $dataOraRicezione;
-
-    /**
-     * @var string (?)
-     */
-    public $errore;
-
-    public $NomeFileMetadati;
-
-    public $Metadati;
+    private $File;
 
     public function __construct(string $nomeFile, string $content)
     {
